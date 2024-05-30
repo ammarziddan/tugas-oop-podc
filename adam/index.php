@@ -1,30 +1,15 @@
 <?php 
 
-// buatlah class dan object untuk menampilkan deskripsi singkat dan deskripsi lengkap dari sebuah film
-
-// deskripsi singkat -> Judul, Sutradara
-// deskripsi lengkap -> Judul, Sutradara | tahun, Rating
-
-class Film {
-    public  $judul,
-            $sutradara,
-            $tahun,
-            $rating;
-
-    public function __construct() {
-        
-    }
-
-    public function deskSingkat() {
-
-    }
-
-    public function deskLengkap() {
-
-    }
+// buatlah class dan object untuk menampilkan deskripsi film
+// Judul | Rating, Director
+class film {
+    // tuliskan sintaks disini
+    // gunakan method constructor
+    // sertakan method getLabel() untuk mencetak label
 }
 
-$obj1 = new Film();
+//buat minimal 2 objek
+$obj1 = new film();
+$obj2 = new film();
 
-echo $obj->deskSingkat(); // menampilkan deskripsi singkat
-echo $obj->deskLengkap(); // menampilkan deskripsi lengkap
+// panggil function getLabel() dibawah sini untuk semua object
